@@ -1,0 +1,102 @@
+@media(max-width:160rem){
+    html{
+    font-size:75%;
+    }
+    
+    .intro h2{
+        font-size:40px;
+    }
+}
+
+@media( max-width:34rem){
+    
+    html{
+        font-size:37.5%;
+    }
+    
+    nav ul li, nav ul li a,.order{
+        font-size:8px; 
+    }
+    
+    #hero{
+        letter-spacing:0;
+        margin-bottom:20rem;
+    }
+    
+    .intro h2{
+        font-size:12px;
+    }
+    
+    .intro p{
+        font-size:8px;
+    }
+    
+    img{
+        width:70px;
+    }
+    
+    .hi-light h2{
+       font-size:16px;
+       line-height:1.5;
+    }
+    
+    .flex-service{
+        
+        grid-template-columns:1fr;
+    }
+    
+    .pedicure,.spa,.hair-dressing{
+        font-size :12px;
+    }
+   
+   all,.pedicure ul li,.spa ul li,.hair-dressing ul li{
+       font-size:16px;
+   }
+   .all{
+       font-size:12px;
+   }
+   
+   .pedicure h4,.spa h4,.hair-dressing h4{
+       font-size:16px;
+   }
+    .form p{
+        font-size:16px;
+    }
+    
+    .proof h2{
+        font-size:16px;
+    }
+    
+    .tag{
+        font-size:24px;
+    }
+    
+    .reviews,.review-name{
+        font-size:12px;
+    }
+    
+    .flex-container{
+        display: grid ;
+        grid-template-columns:1fr;
+    }
+    
+    .flex-container p{
+    width:100%;
+    margin-bottom:0.5rem;
+    font-size:8px;
+    }
+    
+    .circle-image{
+        border-radius:50%;
+        width :100px;
+    }
+    
+    .flex-logo{
+        width:20px;
+    }
+    
+    #navigations p{
+        font-size:16px;
+    }
+  }  
+  

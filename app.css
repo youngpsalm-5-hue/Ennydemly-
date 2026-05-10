@@ -1,0 +1,571 @@
+:root{
+  /*------------primary color------------*/
+    --background: #0D0D0D;
+    (main-background)
+    
+--base-color: #C9A96E;
+(buttons, highlights)
+
+/*-------------Secondary Colors------------*/
+--Secondary:#EAD7C5;
+(section backgrounds)
+--seconday-accent: #A67C52 ;
+(subtle accents)
+ /*-------------Support Colors--------------*/
+--Off-White:#F8F5F2;
+ (text on dark backgrounds)
+ 
+ /*----------------font-size----------------*/
+ --text-sm:12px;
+ --text-md:16px;
+ --text-paragraph:20px;
+ --text-lg:24px;
+ --text-xl:32px; 
+ 
+ /*---------------padding-------------------*/
+ 
+ 
+}
+
+
+/*----------------Global-------------------*/
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;a
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    
+   background:black;
+     color: ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container{
+    max-width:200rem;
+    margin:0 auto;
+}
+
+/*---------------navigation------------*/
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    border:1px solid #C9A96E;
+    padding:1rem;
+    margin-bottom:0.5rem;  
+}
+
+ nav ul li, nav ul li a,.order{
+    list-style-type: none ;
+    text-decoration:none;
+    color:#F8F5F2;
+    font-size:var(--text-md);
+}
+
+.btn:hover ,.all:hover{
+    background:#A67C52;
+    padding:10px 5px;
+    font-weight:bold;
+    color:#EAD7C5;
+}
+
+img{
+     display: inline-block ;
+     width:100px;
+    /*text-align: center ;*/
+     margin:0 auto;
+    
+}
+
+.nav{
+    display:flex;
+    flex-direction: column ;
+    }
+    
+#navigation{
+    position: sticky ;
+    top:0;
+    background:var(--background);
+    }
+    
+/*--------------Hero section------------*/
+
+#hero{
+    background:url("lady.jpeg");
+    color: var(--background);
+    background-size:cover;
+    background-position:center;
+    min-height:30rem;
+    text-align:right;
+    align-content:center;
+    text-height:1.5;
+    letter-spacing:-1px;
+    margin-bottom:30rem;
+    
+}
+
+.intro {
+    margin-right:3rem;
+}
+
+.intro h2{
+    font-size:var(--text-lg);
+       letter-spacing:-1px;
+}
+
+.intro p{
+    font-size:var(--text-paragraph);
+    margin-bottom:1rem;
+}
+
+.order{
+    color: var(--background);
+    background: #D4AF37;
+    padding:5px 40px;
+    font-weight:bold;
+    font-size:var(--text-xl);
+    border-radius:20px;
+}
+
+.order:hover{
+    background:#A67C52;
+    color:#F8F5F2;
+    transform:translateY(-10px);
+}
+
+
+/*----------------Sections-----------------*/
+
+/*----------------Services-----------------*/
+#sections{
+    color:#F8F5F2;
+    font-family:"DM Serif Display", serif;
+    font-size: var(--text-lg);
+    text-align:center;
+    margin-bottom:10rem;
+    transform:translateY(-10px);
+    
+}
+
+.flex-service{
+    display:grid;
+    gap:40px;
+    grid-template-columns:1fr 1fr 1fr;
+    overflow:auto;
+    justify-items:center;
+    align-items: center ;
+    }
+    
+    .services{
+       border:1px solid #464640ba;
+        transition:0.4s ease;
+    }
+    
+.services:hover{
+    transform:translateY(-10px);
+    box-shadow:5px 10px 5px  #D4AF37;
+    border-radius:20px;
+}
+.hi-light{
+    margin-bottom:10rem;
+}
+.gold{
+    color:#C9A96E;
+}
+
+.accent{
+    background:#A67C52;
+    padding:5px;
+    color:#0D0D0D;
+}
+.pedicure,.spa,.hair-dressing {
+    background:#EAD7C5;
+    width:50rem;
+    font-size:var(--text-paragraph);
+    line-height:1.5;
+    min-height:50rem;
+    font-family:'Poppins', sans-serif;
+    border-radius:20px;
+   align-content:center;
+}
+
+.pedicure img,.spa img,.hair-dressing img{
+    width:20rem;
+    border-radius:20px;
+}
+
+.pedicure a,.spa a,.hair-dressing a{
+    text-decoration:none;
+    color:var(--background); 
+}
+
+.all,.pedicure ul li,.spa ul li,.hair-dressing ul li{
+    color:var(--background);
+    font-size:var(--text-lg);
+    list-style-type:none;
+}
+
+.all{
+    background:#D4AF37;
+    padding:5px 10px;
+    font-weight:bold;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.pedicure h4,.spa h4,.hair-dressing h4{
+    font-weight:bold;
+    color:var(--background);
+    font-size:var(--text-lg);
+}
+
+/*--------------Form-section---------------*/
+
+.form h2,.tag{
+    color :#F8F5F2;
+    font-size:var(--text-xl);
+    font-family:"DM Serif Display", serif;
+    text-align: center;
+   line-height:1.5;
+   text-shadow:5px 10px 5px #D4AF37;
+}
+
+.form h2:hover{
+    transition:0.4s ease;
+}
+
+.form p{   
+    color :#F8F5F2;
+    font-size:var(--text-lg);
+    text-align:center;
+    margin-bottom:5rem;
+}
+
+.form {
+    margin-bottom:10rem;
+}
+
+label{
+    color:#F8F5F2;
+}
+
+
+form {
+      max-width: 400px;
+      margin: auto;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-size:var(--text-md);
+    }
+
+    input, button ,select{
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    input {
+      background: #F8F5F2;
+      color: #0D0D0D;
+    }
+
+    .submit{
+      text-decoration:none;
+      display: inline-block ;
+      width:100%;
+      text-align: center ;
+      background :#D4AF37;
+      color: #0D0D0D;
+      cursor: pointer;
+      font-weight:bold;
+      padding: 5px 0;
+      }
+      
+      .margin{
+          margin-bottom:10px;
+      }
+
+/*--------------proof-section--------------*/
+
+.proof h2{
+    color:#F8F5F2;
+    text-align:center;
+    font-size:var(--text-lg);
+    
+}
+
+
+/*--------------reviews--------------*/
+
+.tag{
+    margin-bottom:10rem;
+}
+
+#customer-review{
+    color:#F8F5F2;
+    font-size:var(--text-md); 
+    color:var(--background);
+    margin-bottom:10rem;
+}
+
+
+.review-container {
+    display:grid;
+   grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+   overflow:auto;
+   gap:40px;
+   
+}
+.reviews{
+    background:#EAD7C5;
+    width:50rem;
+    color:var(--secondary-accent);
+    font-size:var(--text-paragraph);
+    line-height:1.5;
+    font-family:'Poppins', sans-serif;
+    border-radius:20px;
+    padding :2rem;
+   align-content:center;
+   transition:translateY(-10px);
+   text-align: center ;
+   transition:0.4s ease;
+    
+}
+
+.reviews:hover{
+    transform:translateY(-10px);
+    box-shadow:5px 10px 5px  #D4AF37;
+}
+.review-name{
+    text-align:right;
+}
+
+.star{
+    text-align:left;
+}
+
+
+/*--------------About-section--------------*/
+
+#about{
+    text-align:center;
+    color:#F8F5F2;
+    line-height:1.5;
+    font-family:'Poppins', sans-serif;
+    margin-bottom:30rem;
+}
+
+h2{
+    font-family:"DM Serif Display", serif;
+    font-size:var(--text-lg);
+    margin-bottom:2rem;
+}
+
+.about-container p{
+    font-size: var(--text-md);
+}
+
+.about-container{
+    display : grid ;
+}
+.circle-image{
+    width:200px;
+    border-radius:50%;
+}
+
+
+/*--------------price-section--------------*/
+
+
+    .pricelist{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:80px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h1{
+    font-size:3rem;
+    color:#D4AF37;
+    font-family:'Playfair Display', serif;
+    margin-bottom:15px;
+}
+
+.section-title p{
+    color:#b8b8b8;
+    font-size:1rem;
+}
+
+.price-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+    gap:30px;
+}
+
+.price-card{
+    background:#151515;
+    padding:35px;
+    border-radius:20px;
+    border:1px solid rgba(212,175,55,0.2);
+    transition:0.4s ease;
+}
+
+.price-card:hover{
+    transform:translateY(-10px);
+    border-color:#D4AF37;
+    box-shadow:0 10px 30px rgba(212,175,55,0.15);
+}
+
+.price-card h2{
+    color:#D4AF37;
+    font-size:1.8rem;
+    margin-bottom:25px;
+    font-family:'Playfair Display', serif;
+}
+
+.price-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+    border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+/*.price-item:last-child{
+    border-bottom:none;
+}*/
+
+.service{
+    display:flex;
+    flex-direction:column;
+}
+
+.service h3{
+    font-size:1rem;
+    margin-bottom:5px;
+}
+
+.service span{
+    color:#999;
+    font-size:0.85rem;
+}
+
+.price{
+    color:#D4AF37;
+    font-weight:600;
+    font-size:1rem;
+}
+
+.badge{
+    background:#D4AF37;
+    color:#000;
+    font-size:0.7rem;
+    padding:4px 10px;
+    border-radius:30px;
+    margin-left:10px;
+    font-weight:600;
+}
+
+.booking-section{
+    margin-top:70px;
+    text-align:center;
+    background:#151515;
+    padding:40px;
+    border-radius:20px;
+}
+
+.booking-section h2{
+    color:#D4AF37;
+    font-family:'Playfair Display', serif;
+    margin-bottom:15px;
+}
+
+.booking-section p{
+    color:#b8b8b8;
+    margin-bottom:25px;
+}
+
+.book-btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#D4AF37;
+    color:#000;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+    transition:0.3s ease;
+}
+
+.book-btn:hover{
+    background:#f0c654;
+    transform:scale(1.05);
+}
+
+.booking-section{
+    margin-bottom:10rem;
+}
+
+
+/*--------------footer-section-------------*/
+.border-none{
+    border:none;
+    color:#D4AF37;
+}
+
+.img-logo{
+    display: inline-block ;
+    margin:0 auto;
+    width:5rem;
+}
+
+#navigations{
+    background:#48362a;
+    
+}
+
+.navs{
+    margin-bottom:5rem;
+}
+
+
+.flex-logo{
+    width:50px;
+}
+
+.svg{
+    display:flex;
+    justify-content: center;
+   gap:40px;
+   margin-bottom:5rem;
+}
+
+#navigations p{
+    color:white;
+    font-size:var(--text-paragraph);
+    text-align: center ;
+}
+
+
+/*------------ABOUT PAGE -----------------*/
+
+.about-container{
+    color:#F8F5F2;
+}
